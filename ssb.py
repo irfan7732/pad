@@ -315,7 +315,7 @@ def bnsbuy():
         exit()
 
     if to in r:
-        sarfraz(1)
+        sarfraz()
     else:
         sarfraz()
  
