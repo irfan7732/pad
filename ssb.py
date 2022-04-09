@@ -315,10 +315,8 @@ def bnsbuy():
         exit()
 
     if to in r:
-        fuck.append(1)
-        sarfraz()
+        sarfraz(1)
     else:
-        fuck.append(1)
         sarfraz()
  
 class load:
